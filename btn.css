@@ -1,0 +1,45 @@
+* { 
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(238, 128, 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__larnU {
+  background-color: rgb(255, 0, 0);
+  border-radius: 10px;
+  width: 50vh;
+  height: 50vh;
+  color: white;
+  border: 5px solid black;
+  transition: 0.4s;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn__larnU:hover {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 6rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  transition: -4s;
+  animation: animacion ease 4s infinite normal none;
+  color: cyan;
+  box-shadow: 5px 5px 5px rgb(36, 36, 36);
+}
+
+@keyframes animacion {
+  from {
+    transform: translateY(0px 5px);
+  }
+  to {
+    transform: translateY(50px);
+  }
+}
